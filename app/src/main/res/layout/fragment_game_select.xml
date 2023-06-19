@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/btn_game6"
+    android:id="@+id/game_select"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="20dp"
@@ -26,79 +26,47 @@
 
             <Button
                 android:id="@+id/btn_game1"
-                android:layout_width="150dp"
+                android:layout_width="180dp"
                 android:layout_height="150dp"
                 android:layout_margin="20dp"
-                android:text="초성 Quiz"
+                android:text="인물\n맞추기"
                 android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btn_game2"
-                android:layout_width="150dp"
+                android:layout_width="180dp"
                 android:layout_height="150dp"
                 android:layout_margin="20dp"
-                android:text="음악 Quiz"
+                android:text="사물\n맞추기"
                 android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btn_game3"
-                android:layout_width="150dp"
+                android:layout_width="180dp"
                 android:layout_height="150dp"
                 android:layout_margin="20dp"
-                android:text="영화 Quiz"
+                android:text="초성\n맞추기"
                 android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btn_game4"
-                android:layout_width="150dp"
+                android:layout_width="180dp"
                 android:layout_height="150dp"
                 android:layout_margin="20dp"
-                android:text="인물 Quiz"
+                android:text="4글자\n이어말하기"
                 android:textSize="24sp" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btn_game5"
-                android:layout_width="150dp"
+                android:layout_width="180dp"
                 android:layout_height="150dp"
                 android:layout_margin="20dp"
                 android:layout_weight="1"
-                android:text="속담 Quiz"
+                android:text="그림\n이어맞추기"
                 android:textSize="24sp" />
 
-            <Button
-                android:id="@+id/button13"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_margin="20dp"
-                android:layout_weight="1"
-                android:text="4글자 Quiz"
-                android:textSize="24sp" />
-
-            <Button
-                android:id="@+id/btn_game7"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_margin="20dp"
-                android:layout_weight="1"
-                android:text="몸으로\n말해요"
-                android:textSize="24sp" />
-
-            <Button
-                android:id="@+id/btn_game8"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_margin="20dp"
-                android:layout_weight="1"
-                android:text="미션\n수행"
-                android:textSize="24sp" />
         </LinearLayout>
+
     </LinearLayout>
 
     <TextView

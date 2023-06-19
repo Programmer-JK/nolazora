@@ -32,5 +32,69 @@
         <action
             android:id="@+id/action_gameSelectFragment_to_titleFragment"
             app:destination="@id/titleFragment" />
+        <action
+            android:id="@+id/action_gameSelectFragment_to_gameOneFragment"
+            app:destination="@id/gameOneFragment" />
+        <action
+            android:id="@+id/action_gameSelectFragment_to_gameTwoFragment"
+            app:destination="@id/gameTwoFragment" />
+        <action
+            android:id="@+id/action_gameSelectFragment_to_gameThreeFragment"
+            app:destination="@id/gameThreeFragment" />
+        <action
+            android:id="@+id/action_gameSelectFragment_to_gameFourFragment"
+            app:destination="@id/gameFourFragment" />
+        <action
+            android:id="@+id/action_gameSelectFragment_to_gameFiveFragment"
+            app:destination="@id/gameFiveFragment" />
+        <action
+            android:id="@+id/action_gameSelectFragment_to_gameWordFragment"
+            app:destination="@id/gameWordFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/gameOneFragment"
+        android:name="com.example.nolazora.GameOneFragment"
+        android:label="fragment_game_one"
+        tools:layout="@layout/fragment_game_one" >
+        <action
+            android:id="@+id/action_gameOneFragment_to_gameSelectFragment"
+            app:destination="@id/gameSelectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameTwoFragment"
+        android:name="com.example.nolazora.GameTwoFragment"
+        android:label="GameTwoFragment" >
+        <action
+            android:id="@+id/action_gameTwoFragment_to_gameSelectFragment"
+            app:destination="@id/gameSelectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameThreeFragment"
+        android:name="com.example.nolazora.GameThreeFragment"
+        android:label="GameThreeFragment" >
+        <action
+            android:id="@+id/action_gameThreeFragment_to_gameSelectFragment"
+            app:destination="@id/gameSelectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFourFragment"
+        android:name="com.example.nolazora.GameFourFragment"
+        android:label="GameFourFragment" >
+        <action
+            android:id="@+id/action_gameFourFragment_to_gameSelectFragment"
+            app:destination="@id/gameSelectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFiveFragment"
+        android:name="com.example.nolazora.GameFiveFragment"
+        android:label="GameFiveFragment" >
+        <action
+            android:id="@+id/action_gameFiveFragment_to_gameSelectFragment"
+            app:destination="@id/gameSelectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameWordFragment"
+        android:name="com.example.nolazora.GameWordFragment"
+        android:label="fragment_game_word"
+        tools:layout="@layout/fragment_game_word" />
 </navigation>

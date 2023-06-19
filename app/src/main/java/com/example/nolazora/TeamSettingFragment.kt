@@ -48,6 +48,8 @@ class TeamSettingFragment : Fragment() {
                 }
             }
         }
+        binding.spinPeopleCount.setSelection(1);
+        binding.spinPeopleCount.setEnabled(false);
         return binding.root
     }
 
